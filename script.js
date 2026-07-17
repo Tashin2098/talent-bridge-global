@@ -80,7 +80,7 @@
   */
   var CHAT_CONFIG = {
     // Local FastAPI endpoint.
-    endpointUrl: "http://127.0.0.1:8000/generate",
+    endpointUrl: "https://rag-chatbot-policy.onrender.com/generate",
 
     // No API key required — your Swagger UI shows no auth/lock icon on
     // this route. Leave as-is unless you add auth later.
