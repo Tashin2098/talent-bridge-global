@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hireline Assistant</title>
+  <meta name="description"
+    content="Ask the Hireline Assistant anything about direct, AI-powered domestic helper hiring." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="chat.css" />
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🤝</text></svg>">
+</head>
+
+<body class="chat-page-body">
+
+  <div class="chat-page" aria-hidden="true">
+    <svg class="chat-page__bg" viewBox="0 0 1200 800" preserveAspectRatio="xMidYMid slice">
+      <path d="M-50,650 C 200,500 350,700 600,550 C 850,400 950,620 1250,480" />
+      <path d="M-50,200 C 250,80 400,260 700,140 C 950,40 1100,200 1250,100" />
+    </svg>
+  </div>
+
+  <header class="chat-page__header">
+    <a href="index.html" class="chat-page__back" aria-label="Back to Hireline">
+      <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path d="M19 12H5M5 12L12 19M5 12L12 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"
+          stroke-linejoin="round" />
+      </svg>
+      <span>Hireline</span>
+    </a>
+
+    <div class="chat-page__identity">
+      <span class="chat-page__avatar">H</span>
+      <div>
+        <strong>Hireline Assistant</strong>
+        <span class="chat-page__status"><i></i> Online</span>
+      </div>
+    </div>
+
+    <a href="index.html" class="chat-page__close" aria-label="Close chat">✕</a>
+  </header>
+
+  <main class="chat-page__main">
+    <div class="chat-page__thread" id="chatBody">
+      <div class="chat-msg chat-msg--bot">
+        Hi! 👋 I'm the Hireline Assistant. Ask me anything — how matching works, why there's no agency fee, how hiring
+        across borders works, or how to join the waitlist.
+      </div>
+    </div>
+  </main>
+
+  <footer class="chat-page__footer">
+    <form id="chatForm" class="chat-page__form" autocomplete="off">
+      <input type="text" id="chatInput" placeholder="Ask about Hireline…" autocomplete="off" />
+      <button type="submit" id="chatSend" aria-label="Send message">
+        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M5 12H19M19 12L13 6M19 12L13 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round" />
+        </svg>
+      </button>
+    </form>
+    <p class="chat-page__note">Hireline Assistant can make mistakes. For anything urgent, reach us at <a
+        href="mailto:hello@hireline.example">hello@hireline.example</a>.</p>
+  </footer>
+
+  <script src="chat.js"></script>
+</body>
+
+</html>

@@ -1,19 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Hireline — Hire domestic help directly, no agencies, no fees</title>
-  <meta name="description" content="Hireline connects employers with verified domestic helpers worldwide through AI-powered matching. No agencies, no inflated fees, no middlemen." />
+  <meta name="description"
+    content="Hireline connects employers with verified domestic helpers worldwide through AI-powered matching. No agencies, no inflated fees, no middlemen." />
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
 
   <link rel="stylesheet" href="styles.css" />
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🤝</text></svg>">
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🤝</text></svg>">
 </head>
+
 <body>
 
   <!-- ============ HEADER ============ -->
@@ -34,12 +40,21 @@
       <div class="header__actions">
         <a href="#cta" class="btn btn--primary btn--sm">Join the waitlist</a>
 
-        <!-- Chatbot icon, top right -->
-        <button class="chat-fab chat-fab--inline" id="chatToggle" aria-label="Open chat assistant" aria-expanded="false">
+        <!-- Chatbot icon, top right — links to the full-page chat -->
+        <a href="chat.html" class="chat-fab chat-fab--inline" aria-label="Open Hireline Assistant">
           <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-            <path d="M21 11.5C21.0034 12.8199 20.6951 14.1219 20.1 15.3C19.3944 16.7118 18.3097 17.8992 16.9674 18.7293C15.6251 19.5594 14.0782 19.9994 12.5 20C11.1801 20.0035 9.87812 19.6951 8.7 19.1L3 21L4.9 15.3C4.30493 14.1219 3.99656 12.8199 4 11.5C4.00061 9.92179 4.44061 8.37488 5.27072 7.03258C6.10083 5.69028 7.28825 4.6056 8.7 3.90003C9.87812 3.30496 11.1801 2.99659 12.5 3.00003H13C15.0843 3.11502 17.053 3.99479 18.5291 5.47089C20.0052 6.94699 20.885 8.91568 21 11V11.5Z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M12 2.5V5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+            <circle cx="12" cy="2" r="1.15" fill="currentColor" />
+            <rect x="4" y="5" width="16" height="13" rx="4" stroke="currentColor" stroke-width="1.8"
+              stroke-linejoin="round" />
+            <path d="M2.5 10.5V14.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+            <path d="M21.5 10.5V14.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+            <circle cx="9" cy="11.3" r="1.35" fill="currentColor" />
+            <circle cx="15" cy="11.3" r="1.35" fill="currentColor" />
+            <path d="M9.5 15.2C10.2 15.7 13.8 15.7 14.5 15.2" stroke="currentColor" stroke-width="1.6"
+              stroke-linecap="round" />
           </svg>
-        </button>
+        </a>
       </div>
 
       <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
@@ -64,7 +79,8 @@
           Hire domestic help directly. <span class="hero__title-accent">No agencies. No middlemen.</span>
         </h1>
         <p class="hero__subtitle reveal">
-          Hireline uses intelligent matching to connect employers with verified domestic helpers across countries — by skills, experience, salary, location, and availability. Talk to your match directly, before you hire.
+          Hireline uses intelligent matching to connect employers with verified domestic helpers across countries — by
+          skills, experience, salary, location, and availability. Talk to your match directly, before you hire.
         </p>
         <div class="hero__actions reveal">
           <a href="#cta" class="btn btn--primary btn--lg">Join the waitlist</a>
@@ -94,29 +110,34 @@
         <p class="eyebrow eyebrow--light reveal">The current system</p>
         <h2 class="section__title section__title--light reveal">Hiring domestic help is still stuck in the 1990s.</h2>
         <p class="section__lead section__lead--light reveal">
-          Every step between an employer and a helper today runs through an agency that adds weeks, paperwork, and fees — without adding trust.
+          Every step between an employer and a helper today runs through an agency that adds weeks, paperwork, and fees
+          — without adding trust.
         </p>
 
         <div class="problem-grid">
           <div class="problem-card reveal">
             <span class="problem-card__icon">💸</span>
             <h3>Inflated fees</h3>
-            <p>Agencies routinely charge employers and helpers a cut, sometimes equal to months of salary, just to make an introduction.</p>
+            <p>Agencies routinely charge employers and helpers a cut, sometimes equal to months of salary, just to make
+              an introduction.</p>
           </div>
           <div class="problem-card reveal">
             <span class="problem-card__icon">🐌</span>
             <h3>Slow, opaque process</h3>
-            <p>Profiles get shared on PDF sheets. Calls get scheduled through a third person. Weeks pass before anyone actually talks.</p>
+            <p>Profiles get shared on PDF sheets. Calls get scheduled through a third person. Weeks pass before anyone
+              actually talks.</p>
           </div>
           <div class="problem-card reveal">
             <span class="problem-card__icon">🎲</span>
             <h3>Poor matching</h3>
-            <p>Placements are often based on whoever is available, not who actually fits the household's needs, schedule, or expectations.</p>
+            <p>Placements are often based on whoever is available, not who actually fits the household's needs,
+              schedule, or expectations.</p>
           </div>
           <div class="problem-card reveal">
             <span class="problem-card__icon">🔒</span>
             <h3>No direct relationship</h3>
-            <p>Employers and helpers rarely speak before day one. Misaligned expectations surface only after someone has already moved.</p>
+            <p>Employers and helpers rarely speak before day one. Misaligned expectations surface only after someone has
+              already moved.</p>
           </div>
         </div>
       </div>
@@ -129,10 +150,12 @@
           <p class="eyebrow reveal">The Hireline way</p>
           <h2 class="section__title reveal">One direct line between employer and helper.</h2>
           <p class="section__lead reveal">
-            Hireline replaces the agency middle layer with an AI matching engine and a direct messaging line. You see real profiles, talk to real candidates, and decide for yourself — with no commission sitting in between.
+            Hireline replaces the agency middle layer with an AI matching engine and a direct messaging line. You see
+            real profiles, talk to real candidates, and decide for yourself — with no commission sitting in between.
           </p>
           <ul class="check-list reveal">
-            <li><span class="check">✓</span> AI matches on skills, experience, salary range, location & availability</li>
+            <li><span class="check">✓</span> AI matches on skills, experience, salary range, location & availability
+            </li>
             <li><span class="check">✓</span> Verified profiles for both employers and helpers</li>
             <li><span class="check">✓</span> Direct chat from the first conversation, no agency relay</li>
             <li><span class="check">✓</span> Built for cross-border hiring from day one</li>
@@ -149,7 +172,8 @@
           </div>
           <div class="connect-line">
             <svg viewBox="0 0 200 40" preserveAspectRatio="none">
-              <path d="M0,20 C 60,0 140,40 200,20" stroke="#E8714A" stroke-width="2" fill="none" stroke-dasharray="6 6"/>
+              <path d="M0,20 C 60,0 140,40 200,20" stroke="#E8714A" stroke-width="2" fill="none"
+                stroke-dasharray="6 6" />
             </svg>
             <span class="connect-line__badge">AI Match · 97%</span>
           </div>
@@ -174,32 +198,38 @@
           <div class="feature-card reveal">
             <div class="feature-card__icon">🧠</div>
             <h3>AI-powered matching</h3>
-            <p>Our engine ranks candidates by skills, experience, salary expectations, location, and availability — so the first match is already a strong fit.</p>
+            <p>Our engine ranks candidates by skills, experience, salary expectations, location, and availability — so
+              the first match is already a strong fit.</p>
           </div>
           <div class="feature-card reveal">
             <div class="feature-card__icon">💬</div>
             <h3>Direct chat</h3>
-            <p>Message your match directly inside the platform. Ask questions, align on expectations, and build trust before any offer is made.</p>
+            <p>Message your match directly inside the platform. Ask questions, align on expectations, and build trust
+              before any offer is made.</p>
           </div>
           <div class="feature-card reveal">
             <div class="feature-card__icon">🌍</div>
             <h3>Global hiring</h3>
-            <p>Hire across borders with profiles built for cross-country placement — language, visa-readiness, and relocation availability included.</p>
+            <p>Hire across borders with profiles built for cross-country placement — language, visa-readiness, and
+              relocation availability included.</p>
           </div>
           <div class="feature-card reveal">
             <div class="feature-card__icon">🛡️</div>
             <h3>Verified profiles</h3>
-            <p>Both sides go through a verification step, so employers and helpers know who they're actually talking to.</p>
+            <p>Both sides go through a verification step, so employers and helpers know who they're actually talking to.
+            </p>
           </div>
           <div class="feature-card reveal">
             <div class="feature-card__icon">📍</div>
             <h3>Smart filters</h3>
-            <p>Filter by role, schedule, live-in or live-out, language, and start date to narrow in on the right match fast.</p>
+            <p>Filter by role, schedule, live-in or live-out, language, and start date to narrow in on the right match
+              fast.</p>
           </div>
           <div class="feature-card reveal">
             <div class="feature-card__icon">💰</div>
             <h3>Zero commission</h3>
-            <p>No agency cut on either side. What you agree with your match is what gets paid — nothing routed through a third party.</p>
+            <p>No agency cut on either side. What you agree with your match is what gets paid — nothing routed through a
+              third party.</p>
           </div>
         </div>
       </div>
@@ -289,21 +319,7 @@
     </div>
   </footer>
 
-  <!-- ============ SIMPLE CHAT WIDGET (icon-only trigger) ============ -->
-  <div class="chat-panel" id="chatPanel" aria-hidden="true">
-    <div class="chat-panel__header">
-      <span>Hireline Assistant</span>
-      <button id="chatClose" aria-label="Close chat">✕</button>
-    </div>
-    <div class="chat-panel__body">
-      <div class="chat-msg chat-msg--bot">Hi! 👋 This is a placeholder chat widget. Connect it to your AI assistant later.</div>
-    </div>
-    <div class="chat-panel__footer">
-      <input type="text" placeholder="Type a message…" disabled />
-      <button disabled>Send</button>
-    </div>
-  </div>
-
   <script src="script.js"></script>
 </body>
+
 </html>
